@@ -1,5 +1,11 @@
 version = 1
 
+test_patterns = [
+  "**/*_test.rs",
+  "**/test/**",
+  "**/tests/**"
+]
+
 [[analyzers]]
 name = "rust"
 enabled = true
